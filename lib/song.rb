@@ -12,7 +12,6 @@ class Song
     temp_array = filename.split(" - ")
     artist_name = temp_array[0]
     song_name = temp_array[1]
-    # artist, song = filename.split(" - ")
     song = Song.new(song_name)
     song.artist_name = artist_name
     return song
